@@ -47,3 +47,15 @@ C:\Users\Admin> mongod
 ```
 C:\Users\Admin> mongo
 ```
+
+### แสดง collection ทั้งหมดใน database
+
+```
+> show collections
+```
+
+### แสดงข้อมูลใน collection ของ database
+
+```
+> db.posts.find().pretty()
+```
